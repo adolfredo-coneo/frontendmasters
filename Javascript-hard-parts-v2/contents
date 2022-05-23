@@ -1,0 +1,6 @@
+Thread of Execution
+Javascript Principles: 
+- Goes through the code line by line and runs/executes each line of code known as the thread of execution.
+- The thread of execution is the order in which the code is executed.
+- Saves 'data' like strings and arrays so we can use that data later in its memory.
+- We can even save code (functions)
