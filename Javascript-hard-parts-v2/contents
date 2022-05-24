@@ -4,3 +4,8 @@ Javascript Principles:
 - The thread of execution is the order in which the code is executed.
 - Saves 'data' like strings and arrays so we can use that data later in its memory.
 - We can even save code (functions)
+
+Functions
+- Running a functions creates a brand new execution context (local memory, thread of execution)
+- First the input, the placeholder is called parameter and the value is called argument
+- Then the body of the function is executed
