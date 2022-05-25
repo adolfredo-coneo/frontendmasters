@@ -1,5 +1,6 @@
+************** Javascript Principles: ******************
+
 Thread of Execution
-Javascript Principles: 
 - Goes through the code line by line and runs/executes each line of code known as the thread of execution.
 - The thread of execution is the order in which the code is executed.
 - Saves 'data' like strings and arrays so we can use that data later in its memory.
@@ -9,3 +10,10 @@ Functions
 - Running a functions creates a brand new execution context (local memory, thread of execution)
 - First the input, the placeholder is called parameter and the value is called argument
 - Then the body of the function is executed
+
+Call Stack
+- The call stack is a list of functions that are currently being executed (thread of execution)
+- Run a function, it is pushed to the call stack
+- When the function is done executing, it is popped off the call stack
+- Whatever is top of the call stack is the current function running
+- The global function is the first function to run and is always at the bottom
