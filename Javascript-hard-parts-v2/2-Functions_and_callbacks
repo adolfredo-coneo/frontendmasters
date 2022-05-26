@@ -4,7 +4,10 @@ We can generalize the function to make it more reusable
 ‘Parameters’ (placeholders) mean we don’t need to decide what data to run our
 functionality on until we run the function
 - Then provide an actual value (‘argument’) when we run the function
+- Functions are first class objects, functions have all the features of objects
 
 Higher order functions:
 - We may not want to decide exactly what some of our functionality is until we run our function
 - We could generalize our function - So we pass in our specific instruction only when we run copyArrayAndManipulate 
+- A HOF takes in a function as an argument or passes out a function as a return value
+- They keep our code more DRY, Don't repeat yourself, more reusable code.
