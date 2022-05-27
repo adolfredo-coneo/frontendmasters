@@ -11,3 +11,9 @@ Higher order functions:
 - We could generalize our function - So we pass in our specific instruction only when we run copyArrayAndManipulate 
 - A HOF takes in a function as an argument or passes out a function as a return value
 - They keep our code more DRY, Don't repeat yourself, more reusable code.
+
+Arrow Functions:
+- Arrow functions are a shorter way to write functions
+- you can pass the funtion as an argument to another function without a name
+  const result = copyArrayAndManipulate(array, item => item * 2);
+- Arrow functions are not hoisted, they are not available before the function is declared
