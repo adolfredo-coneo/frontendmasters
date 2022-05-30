@@ -17,3 +17,11 @@ Arrow Functions:
 - you can pass the funtion as an argument to another function without a name
   const result = copyArrayAndManipulate(array, item => item * 2);
 - Arrow functions are not hoisted, they are not available before the function is declared
+- improve immediate readability of code
+
+Pair Programming:
+- The most effective way to grow as a software engineer is to pair with other developers
+- Tackle problems together, and learn from each other
+- Stay focus on the problem at hand
+- Refine technical comunications
+- Collaborate to solve problems
